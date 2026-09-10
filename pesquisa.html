@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="fundo"></div>
+
+    <div id="header">
+        <h1>FORMULÁRIO</h1>
+        <p id="navegador"><a href="index.html">INDEX</a> <a href="pesquisa.html" id="ativo">FORMULÁRIO</a>
+            <a href="browsers.html">OS BROWSERS</a> <a href="historia.html">A HISTÓRIA DA INTERNET</a>
+        </p>
+    </div>
+
+    <hr />
+
+    <p style="margin-bottom: 20px;">Se quiser, você poderá responder ao seguinte formulário:</p>
+
+
+    <form action="" method="get">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label for="nome" class="primeiro">Informe o seu nome:</label>
+            <input type="text" placeholder="Nome completo">
+
+            <label for="idade">Escolha sua faixa de idade:</label>
+            <select name="idade">
+                <option value="crianca">0 a 15 anos</option>
+                <option value="jovem">16 a 30 anos</option>
+                <option value="adulto">31 a 50 anos</option>
+                <option value="meia">51 a 70 anos</option>
+                <option value="velho">71 anos ou mais</option>
+            </select>
+
+            <label for="genero">Selecione o seu gênero:</label>
+            <input type="radio" name="genero" value="m">
+            <p class="inp">Masculino</p>
+            <input type="radio" name="genero" value="m">
+            <p class="inp">Feminino</p>
+            <input type="radio" name="genero" value="m">
+            <p class="inp">Outro</p>
+
+            <label for="estado">Selecione o seu estado:</label>
+            <select name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PB">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="NaoBrasileiro">Não moro no Brasil</option>
+            </select>
+
+            <label for="ocupacao">Informe a sua ocupação:</label>
+            <input type="text" placeholder="Estudante, profissão...">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Suas preferências</legend>
+
+            <label for="interesses" class="primeiro">Selecione os seus interesses:</label>
+            <input type="checkbox" value="inform">
+            <p class="inp">Informática</p><br>
+            <input type="checkbox" value="musica">
+            <p class="inp">Música</p><br>
+            <input type="checkbox" value="games">
+            <p class="inp">Jogos</p><br>
+            <input type="checkbox" value="esportes">
+            <p class="inp">Esportes</p><br>
+            <input type="checkbox" value="cinema">
+            <p class="inp">Cinema</p><br>
+            <input type="checkbox" value="exatas">
+            <p class="inp">Áreas de exatas</p><br>
+            <input type="checkbox" value="humanas">
+            <p class="inp">Áreas de humanas</p>
+
+
+            <label for="musica">Selecione seu gênero musical favorito:</label>
+            <select name="musica">
+                <option value="pop">Pop</option>
+                <option value="rock">Rock</option>
+                <option value="rap">Hip-Hop/Rap</option>
+                <option value="eletr">Música Eletrônica</option>
+                <option value="classic">Música Clássica</option>
+                <option value="serta">Sertanejo</option>
+                <option value="samba">Samba/Pagode</option>
+                <option value="funk">Funk</option>
+                <option value="mpb">MPB</option>
+                <option value="jazz">Jazz/Blues</option>
+                <option value="gospel">Gospel</option>
+                <option value="outros">Outros/Não tenho preferência</option>
+            </select>
+
+            <label for="favorita">Escreva sua banda/artista favorito atualmente:</label>
+            <input type="text" placeholder="Mamonas Assassinas, Flávio Basso...">
+            <label for="favorita">Escreva seu álbum favorito atualmente:</label>
+            <input type="text" placeholder="Nevermind, Surfer Rosa...">
+
+        </fieldset>
+
+        <button>Enviar Pesquisa</button>
+    </form>
+
+</body>
+
+</html>
