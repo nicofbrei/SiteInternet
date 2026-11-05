@@ -48,7 +48,7 @@ label {
 b {
     color: #78c2ff;
     background: rgba(0, 195, 255, 0.048);
-    padding: 5px;
+    padding: 2px 5px 0 5px;
     padding-bottom: 0px;
     height: 10px;
     font-family: monospace;
@@ -69,7 +69,7 @@ b a,
 .ligacao a {
     color: #ffffff;
     background: rgba(255, 255, 255, 0.048);
-    padding: 5px;
+    padding: 2px 5px 0 5px;
     padding-bottom: 0px;
     height: 10px;
     font-family: monospace;
