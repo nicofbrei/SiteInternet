@@ -14,18 +14,21 @@
 
     <div id="header">
         <h1>FORMULÁRIO</h1>
-        <p id="navegador"><a href="index.html">INDEX</a> - <a href="historia.html">HISTÓRIA DA INTERNET</a> - <a
-                href="browsers.html">OS BROWSERS</a> - <a href="pesquisa.html" id="ativo">FORMULÁRIO</a> - <a href="portfolio.html">AUTOR</a></p>
+        <p id="navegador"><a href="index.html" title="Página Principal">INDEX</a> - <a href="historia.html"
+                title="A História da Internet">HISTÓRIA DA INTERNET</a> - <a href="browsers.html"
+                title="A História dos Browsers">OS BROWSERS</a> - <a href="pesquisa.html"
+                title="Pesquisa Sobre o Público" id="ativo">FORMULÁRIO</a> - <a href="portfolio.html"
+                title="Sobre o Autor">AUTOR</a></p>
     </div>
 
     <hr />
 
-    <p style="margin-bottom: 20px;">Se quiser, você poderá responder ao seguinte formulário:</p>
-
+    
 
     <form action="" method="get">
 
-        <fieldset>
+        <div id="formulario">
+            <fieldset>
             <legend>Dados pessoais</legend>
 
             <label for="nome" class="primeiro">Informe o seu nome:</label>
@@ -83,9 +86,9 @@
             <label for="ocupacao">Informe a sua ocupação:</label>
             <input type="text" placeholder="Estudante, profissão...">
 
-        </fieldset>
+            </fieldset>
 
-        <fieldset>
+            <fieldset>
             <legend>Suas preferências</legend>
 
             <label for="interesses" class="primeiro">Selecione os seus interesses:</label>
@@ -126,8 +129,8 @@
             <label for="favorita">Escreva seu álbum favorito atualmente:</label>
             <input type="text" placeholder="Nevermind, Surfer Rosa...">
 
-        </fieldset>
-
+            </fieldset>
+        </div>
         <button>Enviar Pesquisa</button>
     </form>
 
